@@ -21,8 +21,16 @@ environment:
   sdk: ">=2.10.0 <3.0.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
+  lefthook: ^0.6.5
+  cached_network_image: ^3.1.0
+  flutter_cache_manager: ^3.1.2
+  flutter_unity: ^0.2.1+5
+  crypto: ^2.0.0
+  archive: ^2.0.10
+dev_dependencies:
+  test: '>=1.15.0 <2.0.0'
+  
+  flutter_unity: ^0.2.1+5
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -35,9 +43,7 @@ dependencies:
   cached_network_image: ^3.1.0
   
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
